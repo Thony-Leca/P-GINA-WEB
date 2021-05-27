@@ -1,0 +1,392 @@
+html{scroll-behavior:smooth;transition: 1.3s ease;}
+
+#contenedor{margin: auto;width: 1330px;height:6000px; position:relative;margin: auto;}
+/*#efecto{width: 1330px;top:110px;height: 50px;margin: auto;position: absolute;background-color: rgb(255, 0, 0);border-radius: 10px;}*/
+
+#efecto{top: 105px; 
+    left: 0px; 
+    width: 1330px;
+    font-family:'Trebuchet MS';font-size: 22px;
+    margin: auto;position: absolute;
+}
+.nav > li{
+    float: left;
+}
+*{
+    margin: 1px;
+    padding: 0px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav > li{
+    float: left;
+}
+.nav li a{
+    background-color: rgb(255, 146, 5);
+    color:white;
+    text-decoration: none;
+    padding: 15px  20px;
+    display: block;border-radius: 10px;box-shadow: 1px 2px 0px 0px rgb(211, 206, 206);
+}
+.nav li a:hover{
+    background-color: red;
+}
+#pop{width: 1330px;border-radius: 10px;height: 470px;margin: auto;position: absolute;top:195px;background-image: url(../images/top.jpg);opacity: 97%;}
+#Inicio{width:1330px;height: 110px;position: absolute;}
+#logo{position: absolute;top: 0px;width: 400px;left: 0px;}
+#login{position: absolute;top:-10px;right: 0px;}
+#fb{position: absolute;top: 0px; right:800px;}
+#ig{position:absolute;top: -2px; right:732px;}
+#twi{position:absolute;top: -2px; right:670px;}
+#si{position:absolute;top:60px;left: 490px;height: 35px;width: 150px; background-color: rgb(255, 102, 0);;color: white;text-align: center;font-family:Georgia, 'Times New Roman', Times, serif;font-size: 24px;border-radius: 15px 15px 15px 15px;}
+#wsp{position:absolute;top:-5px;right: 450px ;}
+#mensa{background-color: rgba(89, 167, 25, 0.623);border-radius: 5px ;left: 853px;top: 40px;position: absolute;color: white;font-size: 20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+#seccion{ top: 700px;
+    width: 1300px;
+    height: 800px;
+    background: transparent;
+    
+    border-radius: 10px;
+    position: relative;
+    margin: auto;}
+
+
+#oa{text-align: center;border-radius: 10px;
+    width: 1300px;
+    height: 80px;
+    background-color: rgb(10, 2, 0);
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-family:Georgia
+}
+#oa2{width: 1300px;
+height: 25px; background-color: orangered;position: absolute; top:80px ;}
+
+#img1:hover{transform: scale(0.96);transition: 0.5s ease;
+    width: 420px;
+    position: absolute;
+    z-index: 2;
+}
+
+#img2:hover{transform: scale(0.96);transition: 0.5s ease;
+    width: 420px;
+    position:absolute;
+}
+#img3:hover{transform: scale(0.96);transition: 0.5s ease;
+    width: 420px;
+    position: absolute;
+}
+#img4:hover{transform: scale(0.96);transition: 0.5s ease;
+    width: 420px;
+    position: absolute;
+    z-index: 2;
+}
+#img5:hover{transform: scale(0.96);transition: 0.5s ease;
+    width: 420px;
+    position: absolute;
+    z-index: 2;
+}
+#img6:hover{transform: scale(0.96);transition: 0.5s ease;
+    width: 420px;
+    position: absolute;
+    z-index: 2;
+}
+#des1{border-radius: 10px;
+    width: 91px;
+    height: 65px;
+    position:absolute;
+    top: 123px;
+    left: 5px;
+    z-index: 2;
+    box-shadow: 2px 3px 0px 0px rgb(0, 0, 0);cursor: pointer;
+}
+#des2{border-radius: 10px;
+    width: 91px;
+    height: 65px;
+    position: absolute;
+    top:123px;
+    left: 430px;
+    z-index: 2;box-shadow: 2px 3px 0px 0px rgb(0, 0, 0);cursor: pointer;
+}
+#des3{border-radius: 10px;
+    width: 91px;
+    height: 65px;
+    position: absolute;
+    top:123px;
+    right: 345px;
+    z-index: 2;box-shadow: 2px 3px 0px 0px rgb(0, 0, 0);cursor: pointer;
+}
+#des4{border-radius: 10px;
+    width: 91px;
+    height: 65px;
+    position: absolute;
+    bottom:285px;
+    left:5px;
+    z-index: 2;box-shadow: 2px 3px 0px 0px rgb(0, 0, 0);cursor: pointer;
+}
+#des5{border-radius: 10px;top: 450px;left: 430px;
+    width: 91px;
+    height: 65px;
+    position: absolute;
+    z-index: 2;box-shadow: 2px 3px 0px 0px rgb(0, 0, 0);cursor: pointer;
+}
+#des6{border-radius: 10px;
+    width: 91px;
+    height: 65px;
+    position: absolute;
+    top: 450px;
+    right: 345px;
+    z-index: 2;box-shadow: 2px 3px 0px 0px rgb(0, 0, 0);cursor: pointer;
+}
+
+
+#comboide{width: 1300px;border-radius: 10px;
+    height: 820px; top: 750px;
+    background: transparent;
+   
+    border-radius: 10px;
+    position: relative;
+    margin: auto;}
+
+#COMBOS{ width: 1300px;border-radius: 10px;
+    height: 80px;position: absolute;margin: auto; 
+    top: 15px;background-color:rgb(10, 2, 0) ;}
+    
+    #titulo{color: white;background: rgb(10, 2, 0);text-align: center;top:-70px;font-family:'Georgia';font-size: 18px;}
+    #na{width: 1300px;height: 20px;background-color: orangered;position: absolute; top: 70px;}
+
+    #combo1:hover{transform: scale(0.96);transition: 0.5s ease;width: 410px;height:400px;border-radius: 10px;
+    z-index: 6;}
+    
+    
+    
+    #combo2:hover{transform: scale(0.96);transition: 0.5s ease;width: 410px;height:380px;border-radius: 10px;
+    z-index: 6;} 
+    
+    
+    
+    #combo3:hover{transform: scale(0.96);transition: 0.5s ease;width: 410px;height:295px;border-radius: 10px;
+        z-index: 6;} 
+    
+    
+    #combo4:hover{transform: scale(0.96);transition: 0.5s ease;width: 410px;height:360px;border-radius: 10px;
+            z-index: 6;} 
+    
+    
+    #combo5:hover{transform: scale(0.96);transition: 0.5s ease;width: 410px;height:360px;border-radius: 10px;
+                z-index: 6;} 
+    
+    
+    #combo6:hover{transform: scale(0.96);transition: 0.5s ease;width: 410px;height:360px;border-radius: 10px;
+                    z-index: 6;}
+    
+
+
+#menusalplato{top: 780px;
+    width: 1300px;
+    height: 750px;
+    background: transparent;
+
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    }
+    #voa{text-align: center;border-radius: 10px;
+        width: 1300px;
+        height: 80px;
+        background-color: rgb(10, 2, 0);
+        position: absolute;
+        top: 10px;
+        color: white;
+        font-family:Georgia
+    }
+    #voa2{width: 1300px;
+    height: 25px; background-color: orangered;position: absolute; top:80px ;}
+   
+
+    #uuno:hover{transform: scale(0.96);transition: 0.5s ease;
+        width: 420px;
+        position:absolute;
+    }
+    #ddos:hover{transform: scale(0.96);transition: 0.5s ease;
+        width: 420px;
+        position:absolute;
+    }
+
+    #ttres:hover{transform: scale(0.96);transition: 0.5s ease;
+        width: 420px;
+        position:absolute;
+    }
+ 
+    #cuatro:hover{transform: scale(0.96);transition: 0.5s ease;
+        width: 420px;
+        position:absolute;
+    }
+    #cinco:hover{transform: scale(0.96);transition: 0.5s ease;
+        width: 420px;
+        position:absolute;
+    }
+    #seis:hover{transform: scale(0.96);transition: 0.5s ease;
+        width: 420px;
+        position:absolute;
+    }
+
+
+    #helados{top: 1680px;
+        width: 1300px;
+        height: 800px;
+        background: transparent;
+        border-radius: 10px;
+        position: relative;
+        margin: auto;
+        }
+
+    #boa{text-align: center;border-radius: 10px;
+        width: 1300px;
+        height: 80px;
+        background-color: rgb(10, 2, 0);
+        position: absolute;
+        top: 10px;
+        color: white;
+        font-family:Georgia
+        }
+
+    #boa2{width: 1300px;
+        height: 25px; background-color: orangered;position: absolute; top:80px ;}
+
+    
+        #h1:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;height: 320px;
+            position:absolute;
+        }
+        #h2:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;height: 320px;
+            position:absolute;
+        }
+    
+        #h3:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;height: 320px;
+            position:absolute;
+        }
+     
+        #h4:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;height: 320px;
+            position:absolute;
+        }
+        #h5:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;height: 320px;
+            position:absolute;
+        }
+        #h6:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;height: 320px;
+            position:absolute;
+        }
+
+
+        #complementos{
+            width: 1300px;
+            height: 800px;
+            background: transparent;
+            border-radius: 10px;
+            position: relative;
+            margin: auto;top: 1800px;
+        }
+        #roa{text-align: center;border-radius: 10px;
+            width: 1300px;
+            height: 80px;
+            background-color: rgb(10, 2, 0);
+            position: absolute;
+            top: 10px;
+            color: white;
+            font-family:Georgia
+        }
+        #roa2{width: 1300px;
+        height: 25px; background-color: orangered;position: absolute; top:80px ;}
+        #of1:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;
+            position:absolute;
+        }
+        #of2:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;
+            position:absolute;
+        }
+    
+        #of3:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;
+            position:absolute;
+        }
+     
+        #of4:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;
+            position:absolute;
+        }
+        #of5:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;
+            position:absolute;
+        }
+        #of6:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 420px;
+            position:absolute;
+        }
+
+
+
+        #contene{
+            width: 1300px;
+            height: 800px;
+            background: transparent;
+            border-radius: 10px;
+            position: relative;
+            margin: auto;top: 900px;
+        }
+        #coa{text-align: center;
+            width: 1300px;
+            height: 80px;
+            background-color: rgb(10, 2, 0);
+            position: absolute;
+            top: 10px;
+            color: white;
+            font-family:Georgia
+        }
+        #coa2{width: 1300px;
+        height: 25px; background-color: orangered;position: absolute; top:80px ;}
+        
+        #beb1:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 390px;height: 320px;
+            position:absolute;
+        }
+        #beb2:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 390px;height: 320px;
+            position:absolute;
+        }
+    
+        #beb3:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 390px;
+            position:absolute;
+        }
+     
+        #beb4:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 390px;height: 320px;
+            position:absolute;
+        }
+        #beb5:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 390px;height: 320px;
+            position:absolute;
+        }
+        #beb6:hover{transform: scale(0.96);transition: 0.5s ease;
+            width: 390px;height: 320px;
+            position:absolute;
+        }
+
+        #pie{top: 1750px; 
+            left: -15px; 
+            width: 1330px;
+            height: 60px;
+            font-family:'Trebuchet MS';font-size: 20px;
+            margin: auto;position: absolute; background-color:  black; 
+        }
+        a{color: white;}
+        #su{right: 50px;position: absolute;}
